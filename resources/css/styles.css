@@ -1,0 +1,72 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Roboto;
+    background-color: black;
+    margin: 0px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    background-color: white;
+    
+}
+
+.logo{
+    height:7rem;
+    width: 13rem;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav a {
+    display: block;
+    padding: 1em;
+    color: rgb(56, 56, 56);
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+.nav a:hover{
+    color: orange;
+    background-color: rgb(7, 7, 7);
+    border-radius: 0.5rem;
+}
+
+.mission-container{
+    
+    font-size: 1.5rem;
+    color: white;
+    border-bottom: 1px white solid;
+}
+
+.mission-container h2, h3{
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+.mission-container h2:hover{
+    color: orange;
+}
+.mission-container h3:hover{
+    color: orange;
+}
+
+.product-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img{
+}
