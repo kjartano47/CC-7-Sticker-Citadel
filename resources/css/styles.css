@@ -12,6 +12,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    font-weight: 300;
 }
 .titles:hover{
     color: orange;
@@ -52,16 +53,9 @@ body{
 }
 
 .mission-container{
-    
     font-size: 1.5rem;
     color: white;
     border-bottom: 1px white solid;
-}
-
-.mission-container h2, h3{
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
 }
 
 .product-container{
