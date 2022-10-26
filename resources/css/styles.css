@@ -43,7 +43,8 @@ body{
     padding: 1em;
     color: rgb(56, 56, 56);
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration: pointer;
+
   }
 
 .nav a:hover{
@@ -64,8 +65,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 
 }
 .product-container h2{
@@ -78,7 +79,6 @@ body{
     color: white;
     justify-content: center;
     background-color: rgb(4, 26, 26);
-
 }
 .product-card{
     max-width: 400px;
@@ -113,10 +113,12 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     align-items: stretch;
+    margin-top: 3rem;
+    padding-top: 2rem;
 }
 .team-img{
-    height: 12rem;
-    width: 11rem;
+    height: 17rem;
+    width: 16rem;
     border-radius: 45%;
 }
 .team-card{
@@ -131,7 +133,8 @@ body{
 
 /*Footer*/
 footer{
-    margin-top: 5rem;
+    border-top: 1px solid white;
+    margin-top: 10rem;
 }
 .footer-info{
     display: flex;
@@ -148,3 +151,4 @@ footer{
 .copyright:hover{
     color: orange;
 }
+/*Tablet sizing*/
