@@ -3,8 +3,8 @@ html{
 }
 
 body{
-    font-family: Roboto;
     background-color: black;
+    font-family: Roboto;
     margin: 0px;
 }
 
@@ -51,13 +51,15 @@ body{
     background-color: rgb(7, 7, 7);
     border-radius: 0.5rem;
 }
-
+/*Mission Section*/
 .mission-container{
     font-size: 1.5rem;
     color: white;
     border-bottom: 1px white solid;
 }
 
+
+/*Product Section*/
 .product-container{
     display: flex;
     flex-wrap: wrap;
@@ -78,9 +80,7 @@ body{
     background-color: rgb(4, 26, 26);
 
 }
-
 .product-card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
     margin: auto;
     text-align: center;
@@ -102,11 +102,49 @@ body{
     width: 100%;
 }
 
-.product-img:hover{
-    height: 25rem;
-    width: 25rem;
-    
-}
-img{
+.product-card img{
     border-radius: 30%;
+}
+
+
+/*Team Section*/
+.team-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.team-img{
+    height: 12rem;
+    width: 11rem;
+    border-radius: 45%;
+}
+.team-card{
+    margin:auto;
+    padding-top: 2rem;
+    text-align: center;
+    font-family: Roboto;
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/*Footer*/
+footer{
+    margin-top: 5rem;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+}
+.copyright:hover{
+    color: orange;
 }
