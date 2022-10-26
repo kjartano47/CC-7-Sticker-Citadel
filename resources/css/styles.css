@@ -8,6 +8,15 @@ body{
     margin: 0px;
 }
 
+.titles{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.titles:hover{
+    color: orange;
+}
+
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -15,7 +24,6 @@ body{
     padding-left: 5rem;
     padding-right: 4rem;
     background-color: white;
-    
 }
 
 .logo{
@@ -55,18 +63,56 @@ body{
     display: flex;
     justify-content: center;
 }
-.mission-container h2:hover{
-    color: orange;
-}
-.mission-container h3:hover{
-    color: orange;
-}
 
 .product-container{
-    background-color: white;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.product-container h2{
+    color: white;
+    display: block;
+    font-size: 2.5rem;
 }
 
+.product-container .list{
+    color: white;
+    justify-content: center;
+    background-color: rgb(4, 26, 26);
+
+}
+
+.product-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto;
+    background-color: black;
+    border-bottom: 1px solid white;
+    opacity: 75%;
+    margin-bottom: 4rem;
+}
+.product-card:hover{
+    opacity: 100%;
+}
+.card-text{
+    color: orange;
+}
 .product-img{
+    height: 25rem;
+    width: 25rem;
+    width: 100%;
+}
+
+.product-img:hover{
+    height: 25rem;
+    width: 25rem;
+    
+}
+img{
+    border-radius: 30%;
 }
